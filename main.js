@@ -1,5 +1,5 @@
 async function classifyImage(imageElement) {
-    const model = await tf.loadGraphModel('model.json');
+    const model = await tf.loadGraphModel('model.json', './public');
   
     const img = new Image(180, 180);
     img.src = imageElement.src;

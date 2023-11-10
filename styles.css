@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url('../roses.jpg');
+    background-image: url('roses.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
