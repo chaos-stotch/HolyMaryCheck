@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles.css">
+	<title>Holy Mary Check</title>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.0.0/dist/tf.min.js"></script>
+</head>
+
+<body>
+	<header>
+        <a href="/">
+            <img src="maryLogo.png" alt="mary logo">
+        </a>
+    </header>
+
+    <div class="apparition_container">
+		<p>Add an image of the Blessed Virgin by clicking the button below to learn more about the Marian apparition.</p>
+		<div>
+			<div>
+				<input type="file" id="inputFile" accept="image/*">
+			</div>
+
+			<div class="apparition_details">
+				<h3 class="apparition_name"></h3>
+				<img src="default_apparition.gif" alt="">
+				<h4 class="witnesses"></h4>
+				<p><p>
+				<a href="https://www.cancaonova.com/"><button class="Learn_more">Learn more</button></a>
+			</div>
+		</div>
+    </div>
+	<script type="module" src="/main.js"></script>
+</body>
+</html>
